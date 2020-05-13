@@ -1,0 +1,37 @@
+<div class = "versionone">
+		<a href = "/curses/curs1.html">
+			<div class = "frame">
+				<table class = "cursest">
+					<tr>
+						<th class = "frameimage"><img src="images/curses/1.jpg" alt=""></th>
+					</tr>
+			
+					<tr>
+						<th class = "fdesc">Описание</th>
+					</tr>
+			
+					<tr>
+						<th>Описание 1</th>
+					</tr>
+				</table>
+			</div>
+		</a>
+	
+		<a href = "/curses/curs1.html">
+			<div class = "frame">
+				<table>
+					<tr>
+						<th class = "frameimage"><img src="images/curses/1.jpg" alt=""></th>
+					</tr>
+			
+					<tr>
+						<th class = "fdesc">Описание</th>
+					</tr>
+			
+					<tr>
+						<th>Описание 1</th>
+					</tr>
+				</table>
+			</div>
+		</a>
+	</div>

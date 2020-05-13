@@ -6,7 +6,7 @@
  <title>Главная</title>
 <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
- <body>
+ <body onLoad="change('1');">
   <nav>
   <header>
   <a href="/" class="logol">
@@ -29,25 +29,25 @@
     </a>
   </div>
   <span class="numbers">+7 (***) ***-**-**</span>
-  <a class="headbutton" href='#'>Пройти тест</a>
+  <a class="headbutton" href='test.html' target="_blank">Пройти тест</a>
   </header>
   </nav>
   <header>
-     <a class="hbutton1" href='#'>Специальности</a>
-	 <a class="hbutton1" href='#'>Новости</a>
-	 <a class="hbutton1" href='#'>Курсы</a>
-	 <a class="hbutton1" href='#'>Заявка</a>
-	 <a class="hbutton1" href='#'>Контакты</a>
+     <a class="hbutton1" href='#prof'>Специальности</a>
+	 <a class="hbutton1" href='news.html'>Новости</a>
+	 <a class="hbutton1" href='curses.html'>Курсы</a>
+	 <a class="hbutton1" href='#zayavf'>Заявка</a>
+	 <a class="hbutton1" href='#contact'>Контакты</a>
   </header>
   
-  <div class="all">
+  <div class="all" id = "radiob">
 		<input checked type="radio" name="respond" id="desktop">
 			<article id="slider">
-					<input checked type="radio" name="slider" id="switch1" onclick="('1');">
-					<input type="radio" name="slider" id="switch2" onclick="first('2');">
-					<input type="radio" name="slider" id="switch3" onclick="first('3');">
-					<input type="radio" name="slider" id="switch4" onclick="first('4');">
-					<input type="radio" name="slider" id="switch5" onclick="first('5');">
+					<input checked type="radio" name="slider" id="switch1" onclick="change('1');">
+					<input type="radio" name="slider" id="switch2" onclick="change('2');">
+					<input type="radio" name="slider" id="switch3" onclick="change('3');">
+					<input type="radio" name="slider" id="switch4" onclick="change('4');">
+					<input type="radio" name="slider" id="switch5" onclick="change('5');">
 				<div id="slides">
 					<div id="overflow">
 						<div class="image">
@@ -119,34 +119,34 @@
 	
 	<div class = "gray"> 
 		<table class = "table2">
-		<caption><div class="hthird">ВЫБЕРИ ПРОФЕССИЮ</div></caption>
+		<caption><a name="prof"></a><div class="hthird">ВЫБЕРИ ПРОФЕССИЮ</div></caption>
 			<tr>
 				<th>
 				<div class = "profimage"><img src="images/placeholder.png" alt=""></div>
 				<h3>Разработка</h3>
-				<div class = "sdesc">Разработчик проектирует</div>
-				<button class="profb">Подробнее</button>
+				<div class = "sdesc">Данная специальность</div>
+				<button class="profb" onclick="window.location.href='spec1.html'">Подробнее</button>
 				</th>
 				
 				<th>
 				<div class = "profimage"><img src="images/placeholder.png" alt=""></div>
 				<h3>Разработка</h3>
-				<div class = "sdesc">Разработчик проектирует</div>
-				<button class="profb">Подробнее</button>
+				<div class = "sdesc">Данная специальность</div>
+				<button class="profb" onclick="window.location.href='spec1.html'">Подробнее</button>
 				</th>
 				
 				<th>
 				<div class = "profimage"><img src="images/placeholder.png" alt=""></div>
 				<h3>Разработка</h3>
-				<div class = "sdesc">Разработчик проектирует</div>
-				<button class="profb">Подробнее</button>
+				<div class = "sdesc">Данная специальность</div>
+				<button class="profb" onclick="window.location.href='spec1.html'">Подробнее</button>
 				</th>
 				
 				<th>
 				<div class = "profimage"><img src="images/placeholder.png" alt=""></div>
 				<h3>Разработка</h3>
-				<div class = "sdesc">Разработчик проектирует</div>
-				<button class="profb">Подробнее</button>
+				<div class = "sdesc">Данная специальность</div>
+				<button class="profb" onclick="window.location.href='spec1.html'">Подробнее</button>
 				</th>
 			</tr>
 			
@@ -154,29 +154,29 @@
 				<th>
 				<div class = "profimage"><img src="images/placeholder.png" alt=""></div>
 				<h3>Разработка</h3>
-				<div class = "sdesc">Разработчик проектирует</div>
-				<button class="profb">Подробнее</button>
+				<div class = "sdesc">Данная специальность</div>
+				<button class="profb" onclick="window.location.href='spec1.html'">Подробнее</button>
 				</th>
 				
 				<th>
 				<div class = "profimage"><img src="images/placeholder.png" alt=""></div>
 				<h3>Разработка</h3>
-				<div class = "sdesc">Разработчик проектирует</div>
-				<button class="profb">Подробнее</button>
+				<div class = "sdesc">Данная специальность</div>
+				<button class="profb" onclick="window.location.href='spec1.html'">Подробнее</button>
 				</th>
 				
 				<th>
 				<div class = "profimage"><img src="images/placeholder.png" alt=""></div>
 				<h3>Разработка</h3>
-				<div class = "sdesc">Разработчик проектирует</div>
-				<button class="profb">Подробнее</button>
+				<div class = "sdesc">Данная специальность</div>
+				<button class="profb" onclick="window.location.href='spec1.html'">Подробнее</button>
 				</th>
 				
 				<th>
 				<div class = "profimage"><img src="images/placeholder.png" alt=""></div>
 				<h3>Разработка</h3>
-				<div class = "sdesc">Разработчик проектирует</div>
-				<button class="profb">Подробнее</button>
+				<div class = "sdesc">Данная специальность</div>
+				<button class="profb" onclick="window.location.href='spec1.html'">Подробнее</button>
 				</th>
 			</tr>
 		</table>
@@ -211,14 +211,14 @@
 			<div class="hthird">Партнеры</div>
 			
 	</div>
-	
+	<a name="contact"></a>
 	<div class = "footer">
 		<span class = "map">
 			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae5afff13d1871cd20bfe00049ccef87697578fe180d8d00a97a00afdffe2a1bd&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
 		</span>
 		
 		<div class = "contact">
-		<span class = "hthird">Контактная информация</div>
+			<span class = "hthird">Контактная информация</div>
 		</div>
 	</div>
  </body>

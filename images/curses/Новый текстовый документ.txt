@@ -1,0 +1,6 @@
+		<div class = "cursetext2">
+			<div class = "hthird">Курс 2</div>
+				Описание курса.
+			</div>
+			<div class = "curseimage2"><img src="images/curses/1.jpg" alt=""></div>
+		</div>
