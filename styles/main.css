@@ -72,6 +72,11 @@
 	  max-width: 200px;
 }
 
+.widgets a{
+	text-decoration:none;
+}
+
+
 .numbers {
 	  position: relative;
 	  padding: 15px;
@@ -259,6 +264,7 @@ label, a{
 .pluses{
  position: relative;
  top: 100px;
+ left:140px;
 }
 
 .plus{
@@ -318,6 +324,11 @@ h3{
 	height: 160px;
 }
 
+.profimage img{
+	width:225px;
+	height: 160px;
+}
+
 .sdesc {
 	font-weight: normal;
 	padding-bottom:30px;
@@ -338,7 +349,6 @@ h3{
 
 .process {
 	text-align:center;
-	padding-bottom: 100px;
 }
 
 .table3 {
@@ -375,8 +385,9 @@ input[type="text"] {
    height: 50px; 
    width: 450px;
    color: #cccccc;
-   font-size: 11px;
+   font-size: 21px;
    font-family: Tahoma;
+   color:black;
 }
 
 .otst{
@@ -460,4 +471,42 @@ input[type="submit"] {
 	margin: auto;
 	padding: 30px 0;
 	min-height:500px;
+}
+
+.contactinf{
+	position:relative;
+	left:660px;
+	bottom:390px;
+}
+
+.cinfo{
+	padding-bottom:30px;
+	font-weight: bold;
+	font-size:20px;
+}
+
+.collegeinf{
+	text-align:center;
+}
+
+.formobuch{
+	position:relative;
+	float:right;
+	right:300px;
+	bottom:350px;
+}
+
+.collegeimage img{
+	width:500px;
+	height:350px;
+	position:relative;
+	left:150px;
+}
+
+.obuchenie{
+	position:relative;
+	padding-top:30px;
+	text-align:center;
+	left:120px;
+	font-weight:bold;
 }

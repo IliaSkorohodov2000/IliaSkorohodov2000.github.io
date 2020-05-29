@@ -1,0 +1,11 @@
+th.specimage img{
+	width:400px;
+	padding-right:10%;
+}
+
+th.specdesc{
+	font-weight: normal;
+	max-width: 20%;
+	text-align: left;
+	padding: 0 40px;
+}
