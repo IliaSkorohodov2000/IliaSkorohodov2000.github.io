@@ -264,7 +264,7 @@ label, a{
 .pluses{
  position: relative;
  top: 100px;
- left:140px;
+ left:225px;
 }
 
 .plus{
@@ -492,8 +492,9 @@ input[type="submit"] {
 .formobuch{
 	position:relative;
 	float:right;
-	right:300px;
+	right:250px;
 	bottom:350px;
+	max-width:400px;
 }
 
 .collegeimage img{
@@ -507,6 +508,14 @@ input[type="submit"] {
 	position:relative;
 	padding-top:30px;
 	text-align:center;
-	left:120px;
+	left:210px;
 	font-weight:bold;
+	font-size:20px;
+}
+
+.textresult{
+	text-align:left;
+	width:60%;
+	margin:auto;
+	font-size:20px;
 }
